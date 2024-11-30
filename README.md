@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jzfQvm5J)
 # Project Description
-This project focuses on creating a secure and cost-effective platform for AI-powered image processing. By dynamically splitting workloads between local devices and cloud computing, the system optimizes resource usage, enhances privacy, and reduces cloud costs. Lightweight tasks run locally, while resource-intensive computations are offloaded to the cloud. The hybrid model ensures that sensitive data remains secure, as the original photo is never exposed, and delivers efficient, adaptive AI processing for diverse environments.
+This project aims to demonstrate a secure and cost-effective platform for AI-powered applications, using image classification as a proof of concept. By intelligently distributing workloads between local devices and cloud computing, the system optimizes resource utilization while enhancing privacy and minimizing cloud expenses. Lightweight tasks are processed locally, while more demanding computations are handled in the cloud. This hybrid approach ensures that sensitive data remains protected, as original data is never uploaded. The platform is not limited to image processing; it can be applied to any machine learning model requiring high privacy and cost efficiency, making it versatile for diverse applications.
 
 # Setup Instructions
 1. Install the required dependencies:
@@ -11,3 +11,7 @@ This project focuses on creating a secure and cost-effective platform for AI-pow
 
 3. Run the Streamlit application:
   > streamlit run app.py
+
+
+# Quick demo of webUI 
+  ![UI Image](data/UI.png)
