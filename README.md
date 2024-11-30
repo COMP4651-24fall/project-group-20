@@ -4,10 +4,10 @@ This project focuses on creating a secure and cost-effective platform for AI-pow
 
 # Setup Instructions
 1. Install the required dependencies:
-> pip install -r requirements.txt
+  > pip install -r requirements.txt
 
 2. Navigate to the app directory:
-> cd app
+  > cd app
 
 3. Run the Streamlit application:
-> streamlit run app.py
+  > streamlit run app.py
